@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: darkslategray;
+}
+
+.wrapper {
+    width: 700px;
+    margin: 20px auto;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+header, 
+footer {
+    line-height: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+.layout-sidebar {
+    background: lavenderblush;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sidebar {
+    background: red;
+    color: white;
+    padding-left: 20px;
+    list-style: circle;
+}
+
